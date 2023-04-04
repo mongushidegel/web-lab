@@ -1,0 +1,83 @@
+commit 7540747572a179e350110f8f579f7eb3e1d77b3d
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:48:10 2023 +0700
+
+    Таблица
+
+commit da659e0c85e4ff3bab191e62b73f360b4d2ec402
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:38:01 2023 +0700
+
+    Форматирование
+
+commit f64501144f018268cd94fe766651e6b250745994
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:31:46 2023 +0700
+
+    Структура документа
+
+commit 02a07d24034c826fe27cff32ec8bfe522fc81769
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:29:17 2023 +0700
+
+    Ещё две картинки
+
+commit 476cd45f032169f0ff1e8984177b430267656131
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:25:52 2023 +0700
+
+    Картинка1
+
+commit d8196620103988aafeb0d9b579ece95d6e343b77
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:22:57 2023 +0700
+
+    Заголовки
+
+commit 951cda25cb6dbcb65178786aa83f460813f64a48
+Author: mongushidegel <125105367+mongushidegel@users.noreply.github.com>
+Date:   Tue Apr 4 11:19:42 2023 +0700
+
+    добавление файлов дисконт
+
+commit e88333d58b2add8598f1c0c793a77c5fd3b17521
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:16:04 2023 +0700
+
+    Абзацы
+
+commit f07cb241420b4e6863be9e29b2b0ee0d94fbd1fb
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:12:39 2023 +0700
+
+    Жирный
+
+commit 7d1b405c14bff2cc3660f157ff7ca4d97f8cb165
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:03:04 2023 +0700
+
+    Курсив вычет
+
+commit 41e5e80778b38ea1e19f3e03edb77adda2490f7c
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:01:06 2023 +0700
+
+    Скидка курсивом
+
+commit 032901243212972553c721bac682c0d10e835263
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 10:58:01 2023 +0700
+
+    Курсив дисконта
+
+commit aaee1198eb77efff8eb8735fceec1b96071a97e4
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 10:54:36 2023 +0700
+
+    Определение дисконта
+
+commit 14e93a0072163bd436a12bf888f412d14e29c16a
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Wed Mar 15 20:20:54 2023 +0700
+
+    README.md
