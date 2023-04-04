@@ -1,3 +1,87 @@
+commit 01e4f39672d07bca5b60f19c46ab1370508a90f7
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 18:06:04 2023 +0700
+
+    меню
+
+commit 6c38bd8399fe7c1756ea8558f2be15232ce7ad02
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 14:07:50 2023 +0700
+
+    Стили второй таблицы
+
+commit 755a084ffb72acc4c55f61d39f6b5225fba60330
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 13:34:40 2023 +0700
+
+    новинки
+
+commit 004172fa4fd3813d1ef0781e3f0c7cb17227b825
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 13:20:20 2023 +0700
+
+    compare
+
+commit 9052174dd14c875e10e6c82ed59d8240bfdfd5df
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 13:07:43 2023 +0700
+
+    Стили подвала
+
+commit 1ac2de029830e1077528036ea8eee87ebb441313
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 13:04:50 2023 +0700
+
+    Стили заголовка
+
+commit 567cc35d4a3faad84d1516e6cc29bfa22c41fbb5
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 13:02:47 2023 +0700
+
+    Стили body
+
+commit 87d329d1e32fd720925e93977f713bb61d9b7bd0
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 12:49:39 2023 +0700
+
+    USB дубликаторы серии Super-Tower.
+
+commit ffe7cd529dfb5c983d11f634c66cba3072f93771
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 12:34:16 2023 +0700
+
+    Таблица
+
+commit da8e8ca74db86e52432b65c264f8ae82d119ce25
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 12:27:56 2023 +0700
+
+    Спииски
+
+commit ae237a8af97e79a53bbf556f505441e108acb818
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 12:24:28 2023 +0700
+
+    USB-дубликатор
+
+commit 92df11969ea19e7030614ebdff8c8f56848c8558
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 12:17:14 2023 +0700
+
+    Заготовка
+
+commit 49298de3228448fe7a2108996c53b3c514befb77
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 12:11:17 2023 +0700
+
+    Лаюоратрная 2
+
+commit 3777889fd2e3d3663dd81b2af547cdcbc5b4ec73
+Author: Идегел Монгуш <mongushidegel@yandex.ru>
+Date:   Tue Apr 4 11:53:58 2023 +0700
+
+    Лог тхт для первой лабы
+
 commit 7540747572a179e350110f8f579f7eb3e1d77b3d
 Author: Идегел Монгуш <mongushidegel@yandex.ru>
 Date:   Tue Apr 4 11:48:10 2023 +0700
