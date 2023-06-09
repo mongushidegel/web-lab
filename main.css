@@ -23,19 +23,29 @@ header:hover {
     transition: 0.1s;
 }
 
-footer {background-color: black;
-        color: lightgreen; 
-        padding: 10px; 
-        font-size: 16pt;  
-        text-align: right;
-}
-
-footer:visited {
-    background-color: rgb(194, 210, 20);
+footer {
+    background-color: black;
     color: lightgreen; 
     padding: 10px; 
     font-size: 16pt;  
     text-align: right;
+}
+
+footer:visited {
+    background-color: black;
+    color: lightgreen; 
+    height: 40px;
+    font-size: 16pt;  
+    text-align: right;
+    transition: 1.5s 1.5s;
+    transition-delay: 1.5s;
+    width: 100%;
+    padding-right: 40px;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-top: 50px;
 }
 
 footer:hover {
