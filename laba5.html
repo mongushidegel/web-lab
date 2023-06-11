@@ -47,6 +47,60 @@
         #itog {
             padding-top: 10px;
         }
+
+        .krugi div {
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			text-align: center;
+			font-size: 24px;
+			line-height: 100px;
+			margin-right: 20px;
+			color: #fff;
+			font-weight: bold;
+            margin-top: 30px;
+		}
+
+        .krug1 {
+            background-color: #dea4b7
+        }
+
+        .krug2 {
+            background-color: #e91e63;
+        }
+
+        .krug3 {
+            background-color: #9c27b0;
+        }
+
+        .krug4 {
+            background-color: #673ab7;
+        }
+
+        .krug5 {
+            background-color: #3f51b5;
+        }
+
+        .krug6 {
+            background-color: #2196f3;
+        }
+
+        .krug7 {
+            background-color: #00bcd4;
+        }
+
+        .krug8 {
+            background-color: #009688;
+        }
+
+        .krug9 {
+            background-color: #4caf50;
+        }
+
+        .krug10 {
+            background-color: #ff9800;
+        }
     </style>
     <script>
         function showSum() {
@@ -113,6 +167,10 @@
             output.innerHTML = 'Итоговая сумма: ' + result + ' рублей.';
         }
 
+        function removekrugi(number) {
+           let del = document.getElementById(number)
+           del.style.opacity = '0'
+        }
         
     </script>
 </head>
@@ -151,6 +209,18 @@
             <div id="itog">Итоговая сумма: </div>
         </div>
 
+        <div class="krugi">
+            <div class="krug1" id="1" onclick="removekrugi('1')">1</div>
+            <div class="krug2" id="2" onclick="removekrugi('2')">2</div>
+            <div class="krug3" id="3" onclick="removekrugi('3')">3</div>
+            <div class="krug4" id="4" onclick="removekrugi('4')">4</div>
+            <div class="krug5" id="5" onclick="removekrugi('5')">5</div>
+            <div class="krug6" id="6" onclick="removekrugi('6')">6</div>
+            <div class="krug7" id="7" onclick="removekrugi('7')">7</div>
+            <div class="krug8" id="8" onclick="removekrugi('8')">8</div>
+            <div class="krug9" id="9" onclick="removekrugi('9')">9</div>
+            <div class="krug10" id="10" onclick="removekrugi('10')">10</div>
+        </div>
 
     </main>
 
