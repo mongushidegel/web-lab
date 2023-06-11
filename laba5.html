@@ -24,6 +24,12 @@
             cursor: pointer;
             margin-top: 10px;
        }
+
+       #output {
+            border: 1px solid;
+            width: 300px;
+            height: 40px;
+       }
     </style>
     <script>
         function showSum() {
@@ -66,6 +72,14 @@
             let author = 'Автор страницы:\nИдегел Монгуш\nХорошего дня:)';
             alert(author);
         }
+
+        function changeOutput(buttonNum,backColor,textColor,border){
+            let output = document.getElementById('output');
+            output.innerHTML = 'Нажата кнопка ' + buttonNum;
+            output.style.backgroundColor = backColor;
+            output.style.color = textColor;
+            output.style.border = border;
+        }
     </script>
 </head>
 <body>
@@ -77,11 +91,21 @@
     <main>
         <label>Первое число: <input type="number" value="5154" id="numberA"></label><br>
         <label>Второе число: <input type="number" value="7891" id="numberB"></label><br>
+
         <div class="message1" onclick="showSum()">Найти сумму чисел</div>
         <div class="message1" onclick="showRazn()">Найти разницу чисел</div>
         <div class="message1" onclick="showPro()">Найти произведение чисел</div>
         <div class="message1" onclick="showDel()">Найти деление чисел</div>
         <div class="message2" onclick="showAuthor()">Узнать кто авторы страницы</div>
+        
+        <div> 
+            <input type="button" value="Кнопка 1" onclick="changeOutput(1, 'bisque', 'red', 'thick double')">
+            <input type="button" value="Кнопка 2" onclick="changeOutput(2, 'bisque', 'blue', 'thick double')">
+            <input type="button" value="Кнопка 3" onclick="changeOutput(3, 'bisque', 'black', 'thick double')">
+            <input type="button" value="Кнопка 4" onclick="changeOutput(4, 'bisque', 'grey', 'thick double')">
+        </div>
+
+        <div id="output"></div>
     </main>
 
     <footer> &copy;<i>Идегел Монгуш, ФБИ-11, 2 курс, 2023</i></footer>
