@@ -3,19 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Идегел Монгуш. Лабораторная 4</title>
+    <title>Идегел Монгуш. Лабораторная 5</title>
     <link rel="stylesheet" href="main.css">
     <style>
+       .message1{
+            width: 250px;
+            height: 40px;
+            background-color: wheat;
+            border: 2px solid;
+            display: inline-block;
+            border-radius: 10px;
+            cursor: pointer;
+       } 
+       .message2{
+            width: 250px;
+            height: 40px;
+            background-color: wheat;
+            border: 2px solid;
+            display: inline-block;
+            border-radius: 10px;
+            cursor: pointer;
+       }
     </style>
+    <script>
+        function showSum() {
+            let a = 5154;
+            let b = 7891;
+            let result = a + b;
+            alert('Сумма ' + a + ' и ' + b + ' равна ' + result);
+            }
+    </script>
 </head>
 <body>
 
     <header>
-        НГТУ, ФБ, Лабораторная работа 4
+        НГТУ, ФБ, Лабораторная работа 5
     </header>
 
     <main>
-
+        <div class="message1" onclick="showSum()">Сколько будет 5154+7891</div>
+        <div class="message2">Узнать кто авторы страницы</div>
     </main>
 
     <footer> &copy;<i>Идегел Монгуш, ФБИ-11, 2 курс, 2023</i></footer>
