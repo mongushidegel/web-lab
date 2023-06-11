@@ -11,18 +11,18 @@
             height: 40px;
             background-color: wheat;
             border: 2px solid;
-            display: inline-block;
             border-radius: 10px;
             cursor: pointer;
+            margin-top: 10px;
        } 
        .message2{
             width: 250px;
             height: 40px;
             background-color: wheat;
             border: 2px solid;
-            display: inline-block;
             border-radius: 10px;
             cursor: pointer;
+            margin-top: 10px;
        }
     </style>
     <script>
@@ -35,6 +35,33 @@
             let result = a + b;
             alert('Сумма ' + a + ' и ' + b + ' равна ' + result);
             }
+            function showRazn() {
+            let inputA = document.getElementById('numberA');
+            let inputB = document.getElementById('numberB'); 
+
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
+            let result = a - b;
+            alert('Разница ' + a + ' и ' + b + ' равна ' + result);
+        }
+        function showPro() {
+            let inputA = document.getElementById('numberA');
+            let inputB = document.getElementById('numberB'); 
+
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
+            let result = a * b;
+            alert('Произведение ' + a + ' и ' + b + ' равно ' + result);
+        }
+        function showDel() {
+            let inputA = document.getElementById('numberA');
+            let inputB = document.getElementById('numberB'); 
+
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
+            let result = a / b;
+            alert('Деление' + a + ' и ' + b + ' равно ' + result);
+        }
         function showAuthor() {
             let author = 'Автор страницы:\nИдегел Монгуш\nХорошего дня:)';
             alert(author);
@@ -51,6 +78,9 @@
         <label>Первое число: <input type="number" value="5154" id="numberA"></label><br>
         <label>Второе число: <input type="number" value="7891" id="numberB"></label><br>
         <div class="message1" onclick="showSum()">Найти сумму чисел</div>
+        <div class="message1" onclick="showRazn()">Найти разницу чисел</div>
+        <div class="message1" onclick="showPro()">Найти произведение чисел</div>
+        <div class="message1" onclick="showDel()">Найти деление чисел</div>
         <div class="message2" onclick="showAuthor()">Узнать кто авторы страницы</div>
     </main>
 
