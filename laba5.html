@@ -27,8 +27,11 @@
     </style>
     <script>
         function showSum() {
-            let a = 5154;
-            let b = 7891;
+            let inputA = document.getElementById('numberA');
+            let inputB = document.getElementById('numberB');
+
+            let a = parseInt(inputA.value);
+            let b = parseInt(inputB.value);
             let result = a + b;
             alert('Сумма ' + a + ' и ' + b + ' равна ' + result);
             }
@@ -40,13 +43,15 @@
 </head>
 <body>
 
-    <header onclick="showAuthor()">
+    <header>
         НГТУ, ФБ, Лабораторная работа 5
     </header>
 
     <main>
-        <div class="message1" onclick="showSum()">Сколько будет 5154+7891</div>
-        <div class="message2">Узнать кто авторы страницы</div>
+        <label>Первое число: <input type="number" value="5154" id="numberA"></label><br>
+        <label>Второе число: <input type="number" value="7891" id="numberB"></label><br>
+        <div class="message1" onclick="showSum()">Найти сумму чисел</div>
+        <div class="message2" onclick="showAuthor()">Узнать кто авторы страницы</div>
     </main>
 
     <footer> &copy;<i>Идегел Монгуш, ФБИ-11, 2 курс, 2023</i></footer>
